@@ -2,6 +2,7 @@ import './App.css'
 import Pahlava from './assets/ph.png'
 import User from './assets/user.png'
 import Img from './assets/пахлава.jpeg'
+import Star from './assets/star.png'
 function App() {
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
         </section>
         <section className='flex justify-between p-6 mt-30 rounded-xl bg-purple-400'>
           <img className='mr-10 rounded-xl w-100' src={Img} alt="" />
-          <p className='mr-20 italic text-xs'>О, как прекрасна пахлава,<br />
+          <p className='mr-20 font-vova italic text-xs'>О, как прекрасна пахлава,<br />
 Когда в морозный зимний день<br />
 В душе рождаются слова:<br />
 Восток, жара, чинары тень…<br />
@@ -59,6 +60,28 @@ function App() {
            Надежды…
                 Иншалла!</p>
         </section>
+        <section className='mt-30 flex rounded-xl bg-baklava-500'>
+        <div className='rounded-md bg-purple-400 p-4 m-5'>
+          <div className='items-center flex '><img className='w-20 mr-5' src={User} alt="" /><p className='font-bold text-2xl text-baklava-500'>Канье Уэст</p></div>
+          <p className=' mt-5 font-vova text-xs'>«Пахлава — это не просто десерт, это маленькое чудо. Орехи, мед, специи — всё вместе создаёт незабываемый вкус, который хочется ощущать снова и снова.»</p>
+          <img className='w-30 m-auto' src={Star} alt="" />
+        </div>
+         <div className='rounded-md bg-purple-400 p-4 m-5'>
+          <div className='items-center flex '><img className='w-20 mr-5' src={User} alt="" /><p className='font-bold text-2xl text-baklava-500'>Канье Уэст</p></div>
+          <p className=' mt-5 font-vova text-xs'>«Это божественно! Пахлава тает во рту, каждая слоёная корочка пропитана ароматным сиропом и орехами. Такое ощущение, будто оказался на восточном празднике!»</p>
+          <img className='w-30 m-auto' src={Star} alt="" />
+        </div>
+         <div className='rounded-md bg-purple-400 p-4 m-5'>
+          <div className='items-center flex '><img className='w-20 mr-5' src={User} alt="" /><p className='font-bold text-2xl text-baklava-500'>Канье Уэст</p></div>
+          <p className=' mt-5 font-vova text-xs'>«Такой десерт невозможно забыть! Сочная, ароматная, с волшебным вкусом востока. Кажется, что пахлава сделана с любовью и щепоткой сказки.»</p>
+          <img className='w-30 m-auto' src={Star} alt="" />
+        </div>
+        
+        
+        
+        
+        
+      </section>
       </article>
 
     </>

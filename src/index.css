@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@theme {
+      --color-baklava-500: oklch(0.7686 0.1236 133.88);
+      --font-vova: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
